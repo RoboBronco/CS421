@@ -8,10 +8,7 @@ public class KnightTour {
 		int x = Integer.parseInt(args[2]);
 		int y = Integer.parseInt(args[3]);
 		
-		//KnightBoard.KnightBoardBasic(n, x, y, strat);
-		//System.out.println(tour.board[1][1]);
-		
-		Kinght.startKnightTour(n, x, y);
+		KnightBoard tour = new KnightBoard(n, x, y, strat);
 		
 		
 	}
